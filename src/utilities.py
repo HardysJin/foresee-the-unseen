@@ -15,7 +15,6 @@ from commonroad.scenario.obstacle import ObstacleType, DynamicObstacle, StaticOb
 from commonroad.planning.planning_problem import PlanningProblemSet, PlanningProblem, GoalRegion
 from commonroad.common.util import Interval, AngleInterval
 from commonroad.scenario.scenario import Lanelet
-from commonroad_dc.collision.visualization.draw_dispatch import draw_object
 
 import yaml
 
