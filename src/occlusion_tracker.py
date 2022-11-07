@@ -12,7 +12,6 @@ from commonroad.scenario.scenario import Scenario, Lanelet
 from commonroad.scenario.obstacle import DynamicObstacle, ObstacleType
 from commonroad.scenario.trajectory import State
 from commonroad.prediction.prediction import SetBasedPrediction, Occupancy
-from commonroad_dc.collision.visualization.draw_dispatch import draw_object
 
 from utilities import Lanelet2ShapelyPolygon, ShapelyPolygon2Polygon, polygon_intersection, polygon_diff, polygon_union, cut_line
 
