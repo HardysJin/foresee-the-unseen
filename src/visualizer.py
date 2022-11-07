@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from matplotlib import animation
 import yaml
-from commonroad_dc.collision.visualization.draw_dispatch import draw_object
+from commonroad.visualization.draw_dispatch_cr import draw_object
 from commonroad.scenario.obstacle import ObstacleType
 
 from utilities import ShapelyPolygon2Polygon, rgb2hex
